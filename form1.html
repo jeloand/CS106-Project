@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design Bootstrap</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min1.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.min.css" rel="stylesheet">
+</head>
+
+<body class="grey lighten-3">
+
+  <!--Main Navigation-->
+  <header>
+
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar">
+      <div class="container-fluid">
+
+        <!-- Brand -->
+        <a class="navbar-brand waves-effect" href="#" target="_blank">
+          <strong class="blue-text">Bicol University Health Services</strong>
+        </a>
+
+        <!-- Collapse -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <!-- Left -->
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link waves-effect" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link waves-effect" href="https://mdbootstrap.com/docs/jquery/" target="_blank">About
+                MDB</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link waves-effect" href="https://mdbootstrap.com/docs/jquery/getting-started/download/"
+                target="_blank">Free
+                download</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link waves-effect" href="https://mdbootstrap.com/education/bootstrap/" target="_blank">Free
+                tutorials</a>
+            </li>
+          </ul>
+
+          <!-- Right -->
+          <ul class="navbar-nav nav-flex-icons">
+            <li class="nav-item">
+              <a href="https://www.facebook.com/mdbootstrap" class="nav-link waves-effect" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="https://twitter.com/MDBootstrap" class="nav-link waves-effect" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="https://github.com/mdbootstrap/bootstrap-material-design" class="nav-link border border-light rounded waves-effect"
+                target="_blank">
+                <i class="fab fa-github mr-2"></i>MDB GitHub
+              </a>
+            </li>
+          </ul>
+
+        </div>
+
+      </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Sidebar -->
+    <div class="sidebar-fixed position-fixed">
+
+      <a class="logo-wrapper waves-effect">
+        <img src="https://mdbootstrap.com/img/logo/mdb-email.png" class="img-fluid" alt="">
+      </a>
+
+      <div class="list-group list-group-flush">
+        <a href="#" class="list-group-item active waves-effect">
+          <i class="fas fa-chart-pie mr-3"></i>Dashboard
+        </a>
+        <a href="#" class="list-group-item list-group-item-action waves-effect">
+          <i class="fas fa-user mr-3"></i>Profile</a>
+        <a href="#" class="list-group-item list-group-item-action waves-effect">
+          <i class="fas fa-table mr-3"></i>Tables</a>
+        <a href="#" class="list-group-item list-group-item-action waves-effect">
+          <i class="fas fa-map mr-3"></i>Maps</a>
+        <a href="#" class="list-group-item list-group-item-action waves-effect">
+          <i class="fas fa-money-bill-alt mr-3"></i>Orders</a>
+      </div>
+
+    </div>
+    <!-- Sidebar -->
+
+  </header>
+  <!--Main Navigation-->
+
+  <!--Main layout-->
+  <main class="pt-5 mx-lg-5">
+    <div class="container-fluid mt-5">
+
+      <!-- Heading -->
+      <div class="card mb-4 wow fadeIn">
+
+        <!--Card content-->
+        <div class="card-body d-sm-flex justify-content-between">
+
+          <h4 class="mb-2 mb-sm-0 pt-1">
+            <a href="https://mdbootstrap.com/docs/jquery/" target="_blank">Home Page</a>
+            <span>/</span>
+            <span>Dashboard</span>
+          </h4>
+
+          <form class="d-flex justify-content-center">
+            <!-- Default input -->
+            <input type="search" placeholder="Type your query" aria-label="Search" class="form-control">
+            <button class="btn btn-primary btn-sm my-0 p" type="submit">
+              <i class="fas fa-search"></i>
+            </button>
+
+          </form>
+
+        </div>
+
+      </div>
+      <!-- Heading -->
+    </div>
+
+    <div class="container-fluid mt-5">
+      <div class="card p-5">
+        <h4 class="h4">Patient's information</h4>
+        <form class="border-light px-2 my-0 md-form" style="color: #757575;">
+          <div class="row py-2">
+            <div class="col-lg-4">
+              <!-- <input type="text" id="FirstName" class="form-control" placeholder="First name"> -->
+              <input type="text" id="first-name" class="form-control">
+              <label for="first-name" class="pl-3">First name</label>
+            </div>
+            <div class="col-lg-3">
+              <!-- <input type="text" id="MiddleName" class="form-control" placeholder="Middle name"> -->
+              <input type="text" id="middle-name" class="form-control">
+              <label for="middle-name" class="pl-3">Middle name</label>
+            </div>
+            <div class="col-lg-3">
+              <!-- <input type="text" id="LastName" class="form-control" placeholder="Last name"> -->
+              <input type="text" id="last-name" class="form-control">
+              <label for="last-name" class="pl-3">Last name</label>
+            </div>
+            <div class="col-lg-2">
+              <!-- <input type="text" id="PatientID" class="form-control" placeholder="Patient ID"> -->
+              <input type="text" id="patiend-id" class="form-control">
+              <label for="patiend-id" class="pl-3">Patient ID</label>
+            </div>
+          </div>
+          <div class="row py-2">
+            <div class="col-lg-4">
+              <!-- <input type="text" id="Course" class="form-control" placeholder="Course"> -->
+              <input type="text" id="course" class="form-control">
+              <label for="course" class="pl-3">Course</label>
+            </div>
+            <div class="col-lg-4">
+              <select class="browser-default custom-select" id="select">
+                <option value="" disabled="" selected="">Year</option>
+                <option value="1">First Year</option>
+                <option value="2">Second Year</option>
+                <option value="3">Third Year</option>
+                <option value="4">Fourth Year</option>
+                <option value="5">Fifth Year</option>
+              </select>
+            </div>
+            <div class="col-lg-4">
+              <select class="browser-default custom-select" id="select">
+                <option value="" disabled="" selected="">College Unit</option>
+                <option value="CS">College of Science</option>
+                <option value="CAL">College of Arts and Letters</option>
+                <option value="CN">College of Nursing</option>
+                <option value="IPESR">Institute of Physical Education, Sports and Recreation</option>
+                <option value="CE">College of Education</option>
+                <option value="CENG">College of Engineering</option>
+                <option value="IA">Institute of Architecture</option>
+                <option value="CIT">College of Industrial Technology</option>
+                <option value="CBEM">College of Business, Economics and Management</option>
+                <option value="CSSP">College of Social Sciences and Philosphy</option>
+                <option value="CAF">College of Agriculture and Forestry</option>
+                <option value="TC">Tabaco Campus</option>
+                <option value="PC">Polangui Campus</option>
+                <option value="GC">Gubat Campus</option>
+                <option value="CM">College of Medicine</option>
+                <option value="CL">College of Law</option>
+                <option value="GS">Graduate School</option>
+              </select>
+            </div>
+          </div>
+          <div class="row py-2">
+            <div class="col-lg-4">
+              <input type="text" id="birthdate" class="form-control">
+              <label for="birthdate" class="pl-3">Birthdate</label>
+            </div>
+            <div class="col-lg-4">
+              <select class="browser-default custom-select" id="sex">
+                <option value="" disabled="" selected="">Sex</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
+            </div>
+            <div class="col-lg-4">
+              <select class="browser-default custom-select" id="select">
+                <option value="" disabled="" selected="">Civil Status</option>
+                <option value="single">Single</option>
+                <option value="married">Married</option>
+                <option>Other</option>
+              </select>
+            </div>
+          </div>
+          <div class="row py-2">
+            <div class="col-lg-8">
+              <input type="text" id="address" class="form-control">
+              <label for="address" class="pl-3">Address</label>
+            </div>
+            <div class="col-lg-4">
+              <input type="text" id="contact-number" class="form-control">
+              <label for="contact-number" class="pl-3">Contact Number</label>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div class="card p-5 mt-5">
+        <h4 class="h4">Parents' information</h4>
+        <form class="border-light px-2 my-0 md-form" style="color: #757575;">
+          <div class="row py-2">
+            <div class="col-lg-6">
+              <input type="text" id="mothers-name" class="form-control">
+              <label for="mothers-name" class="pl-3">Mother's name</label>
+            </div>
+            <div class="col-lg-6">
+              <input type="text" id="fathers-name" class="form-control">
+              <label for="fathers-name" class="pl-3">Father's name</label>
+            </div>
+          </div>
+          <div class="row py-2">
+            <div class="col-lg-6">
+              <input type="text" id="mothers-contact" class="form-control">
+              <label for="mothers-contact" class="pl-3">Contact Number</label>
+            </div>
+            <div class="col-lg-6">
+              <input type="text" id="fathers-contact" class="form-control">
+              <label for="fathers-contact" class="pl-3">Contact Number</label>
+            </div>
+          </div>
+          <div class="row py-2">
+            <div class="col-lg-6">
+              <input type="text" id="mothers-occupation" class="form-control">
+              <label for="mothers-occupation" class="pl-3">Occupation</label>
+            </div>
+            <div class="col-lg-6">
+              <input type="text" id="fathers-occupation" class="form-control">
+              <label for="fathers-occupation" class="pl-3">Occupation</label>
+            </div>
+          </div>
+          <div class="row py-2">
+            <div class="col-lg-6">
+              <input type="text" id="mothers-office-add" class="form-control">
+              <label for="mothers-office-add" class="pl-3">Office Address</label>
+            </div>
+            <div class="col-lg-6">
+              <input type="text" id="fathers-office-add" class="form-control">
+              <label for="fathers-office-add" class="pl-3">Office Address</label>
+            </div>
+          </div>
+        </form>
+      </div>
+
+     <!--  <div class="card p-5 mt-5">
+        <h4 class="h4">Parents' information</h4>
+        <form class="border-light px-2 my-0 md-form" style="color: #757575;">
+          <div class="col-lg-6">
+          </div>
+          <div class="col-lg-6">
+          </div>
+        </form>
+      </div> -->
+
+      <div class="card p-5 mt-5">
+        <h4 class="h4">Medical Patient Record</h4>
+        <form class="border-light px-2 my-0 md-form" style="color: #757575;">
+          <div class="row py-2">
+            <label class="pl-3">Illnesses:</label>
+          </div>
+          <div class="row py-2 ml-5">
+            <div class="col-lg-4">
+              <div class="custom-control custom-checkbox my-2">
+                <input type="checkbox" class="custom-control-input" id="hypertension">
+                <label class="custom-control-label" for="hypertension">Hypertension</label>
+              </div>
+              <div class="custom-control custom-checkbox my-2">
+                <input type="checkbox" class="custom-control-input" id="diabetes">
+                <label class="custom-control-label" for="diabetes">Diabetes</label>
+              </div>
+              <div class="custom-control custom-checkbox my-2">
+                <input type="checkbox" class="custom-control-input" id="kidney-disease">
+                <label class="custom-control-label" for="kidney-disease">Kidney Disease</label>
+              </div>
+              <div class="custom-control custom-checkbox my-2">
+                <input type="checkbox" class="custom-control-input" id="measles">
+                <label class="custom-control-label" for="measles">Measles</label>
+              </div>
+              <div class="custom-control custom-checkbox my-2">
+                <input type="checkbox" class="custom-control-input" id="diphtheria">
+                <label class="custom-control-label" for="diphtheria">Diphtheria</label>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="custom-control custom-checkbox my-2">
+                <input type="checkbox" class="custom-control-input" id="asthma">
+                <label class="custom-control-label" for="asthma">Asthma</label>
+              </div>
+              <div class="custom-control custom-checkbox my-2">
+                <input type="checkbox" class="custom-control-input" id="rheumatic-fever">
+                <label class="custom-control-label" for="rheumatic-fever">Rheumatic Fever</label>
+              </div>
+              <div class="custom-control custom-checkbox my-2">
+                <input type="checkbox" class="custom-control-input" id="seizure-disorder">
+                <label class="custom-control-label" for="seizure-disorder">Seizure Disorder</label>
+              </div>
+              <div class="custom-control custom-checkbox my-2">
+                <input type="checkbox" class="custom-control-input" id="hepatitis">
+                <label class="custom-control-label" for="hepatitis">Hepatitis</label>
+              </div>
+              <div class="custom-control custom-checkbox my-2">
+                <input type="checkbox" class="custom-control-input" id="allergy">
+                <label class="custom-control-label" for="allergy">Allergy</label>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="custom-control custom-checkbox my-2">
+                <input type="checkbox" class="custom-control-input" id="mumps">
+                <label class="custom-control-label" for="mumps">Mumps</label>
+              </div>
+              <div class="custom-control custom-checkbox my-2">
+                <input type="checkbox" class="custom-control-input" id="cardiac-disease">
+                <label class="custom-control-label" for="cardiac-disease">Cardiac Disease</label>
+              </div>
+              <div class="custom-control custom-checkbox my-2">
+                <input type="checkbox" class="custom-control-input" id="chicken-pox">
+                <label class="custom-control-label" for="chicken-pox">Chicken Pox</label>
+              </div>
+              <div class="custom-control custom-checkbox my-2">
+                <input type="checkbox" class="custom-control-input" id="tubercolosis">
+                <label class="custom-control-label" for="tubercolosis">Tubercolosis</label>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div class="card p-5 my-5">
+        <h4 class="h4">Examinations</h4>
+        <!--Table-->
+        <table class="table text-center mt-3">
+        <!--Table head-->
+          <thead>
+            <tr class="mdb-color lighten-5">
+              <th>Date</th>
+              <th>Temperature</th>
+              <th>Blood pressure</th>
+              <th>Mass (Weight)</th>
+              <th>Height</th>
+              <th>History and Physical Examination</th>
+              <th>Physicians Directions</th>
+            </tr>
+          </thead>
+          <!--Table head-->
+          <!--Table body-->
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+            </tr>
+          </tbody>
+          <!--Table body-->
+        </table>
+        <!--Table-->
+      </div>
+    </div>
+  </main>
+  <!--Main layout-->
+
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script src="js/addons/wow.min.js"></script>
+   
+</body>
+
+</html>
